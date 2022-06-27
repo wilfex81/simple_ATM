@@ -33,19 +33,19 @@ class UserAccount():
         This function should validate the pin of the user.
         '''
     
-        #commented out because we are do not have any pin yet
+        #commented out because we are do not have any pin yet and also it needs a bit of twitching here and there
         # tries = 3
         #  for number_of_tries in tries:
         #         if number_of_tries in tries == 0:
         #             print("You have exceeded the number of tries")
         #             exit()
-        #         if number_of_tries in tries == 1:
+        #         elif number_of_tries in tries == 1:
         #             print("You have 1 try left")
-        #         if number_of_tries in tries == 2:
+        #         elif number_of_tries in tries == 2:
         #             print("You have 2 tries left")
                 
         #         tries -= 1
-        #         if pin == self.AccountPin:
+        #         elif pin == self.AccountPin:
         #             continue
 
         for pin in self.AccountPin:
