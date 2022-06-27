@@ -19,15 +19,13 @@ class UserAccount():
         This function should validate the account number of the user.
         The account number should be digits only.
         '''
-        while True:
-            for acount in self.AccountNumber:
-                
-                if acount.isdigit() and len(self.AccountNumber) == 10:
-                    continue
-                else:
-                    print("Please enter a valid account number")
-                    exit()
-            break
+        for acount in self.AccountNumber:
+            if acount.isdigit() and len(self.AccountNumber) == 10:
+                continue
+            else:
+                print("Please enter a valid account number")
+                exit()
+        break
         return self.AccountNumber
 
     def validatePin(self):
